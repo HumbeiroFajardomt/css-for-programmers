@@ -1,0 +1,10 @@
+.main {
+  margin: 0;
+  display: flex;
+}
+.boxFlex {
+  border: 2px solid black;
+  flex: 1 1 40%;
+  padding: 1rem;
+  margin: 1rem;
+}

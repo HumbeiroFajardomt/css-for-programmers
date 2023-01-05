@@ -27,7 +27,7 @@ img {
   grid-template-columns: 1fr minmax(auto, var(--content-width)) 1fr;
 }
 
-main>* {
+main > * {
   padding: 2rem;
   grid-column: 2;
 }
@@ -43,12 +43,12 @@ main>* {
   grid-template-columns: inherit;
 }
 
-.full-width>* {
+.full-width > * {
   grid-column: 2;
   padding: 0 2rem;
 }
 
-figure.full-width>* {
+figure.full-width > * {
   padding: 0;
   grid-column: 1/-1;
 }
